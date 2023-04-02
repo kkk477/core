@@ -14,7 +14,12 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+	implementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    implementation 'org.assertj:assertj-core:3.24.2'
+	implementation 'org.assertj:assertj-core:3.24.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	annotationProcessor 'org.assertj:assertj-core:3.24.2'
 }
 
 tasks.named('test') {
